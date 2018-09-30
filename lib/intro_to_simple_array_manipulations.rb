@@ -37,6 +37,6 @@ def using_concat (arr_1, arr_2)
   arr_1
 end
 
-def
-assert_select_encoded
+def using_insert ()
+end
 
