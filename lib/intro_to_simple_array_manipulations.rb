@@ -8,5 +8,11 @@ def using_unshift (array, string)
   array
 end
 
-def 
+def using_pop (array)
+  element = array.pop
+  element
+end
+
+def pop_with_args
+  
 end
