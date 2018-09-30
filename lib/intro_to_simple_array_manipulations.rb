@@ -52,11 +52,11 @@ def using_flatten (array)
   array
 end
 
-def using_delete (array)
-  element = array.delete
-  element
+def using_delete (array, string)
+  array.delete (string)
+ array
 end
 
 def using_delete_at (array, index)
-  element = array.delete (index)
+  element = array.delete_at
 end
