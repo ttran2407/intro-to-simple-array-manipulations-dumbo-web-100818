@@ -57,5 +57,6 @@ def using_delete (array)
   element
 end
 
-def using_delete_at ()
+def using_delete_at (array, index)
+  element = array.delete (index)
 end
