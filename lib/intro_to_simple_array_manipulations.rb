@@ -13,6 +13,11 @@ def using_pop (array)
   element
 end
 
-def pop_with_args
-  
+def pop_with_args (array)
+  pop_two = []
+  pop_two.push (array.pop)
+  pop_two.push (array.pop)
+  pop_two
 end
+
+
